@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.wrapper{
+  background-color: white;
+  width: 80vw;
+  margin: 0px auto;
+}
+.top{
+ background-color: black;
+  height: 140px;
+  display: flex;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-image: url("../img/books1.jpeg");
+  background-size:cover;
+  height: 68vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container a{
+  text-decoration: none;
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+}
+.container a:hover{
+  color: rgb(219, 55, 55);
+}
+.footer{
+ 
+  padding: 30px;
+  height: 150px;
+  background-color: black;
+  color:white;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* book.html */
+
+
+
