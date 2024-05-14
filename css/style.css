@@ -8,6 +8,20 @@ body{
 
   background-color: beige;
 }
+/* header.book-top{
+  display: flex !important;
+  justify-content: flex-start !important;
+  background-color: black;
+  height: 119px;  
+} */
+
+header img.image{
+  border-radius: 40px;
+  
+}
+header img.image:hover{
+  opacity: .7;
+}
 .wrapper{
   background-color: white;
   width: 80vw;
@@ -65,14 +79,15 @@ footer{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
   height: auto;
   margin-bottom: 153px;
 }
 .card{
-  margin:30px;
+  border-radius: 10px;
+  padding: 13px 19px; 
+    margin:30px;
   border: 1px solid gray;
-  width: 231px;
+  width: 250px;
 }
 .card-title{
   padding: 5px;
@@ -83,12 +98,67 @@ footer{
 }
 
 .card img{
-  width: 230px ;
-  height: 230px;
+  width: 210px ;
+  height: 210px;
+  border-radius: 10px;
+ 
+  
 }
 .title{
   height: 90px;
 }
 
+.book{
+  padding: 40px 0px 20px 30px;
+  
+}
+
+section.text{
+  padding: 39px 35px 0 0px;
+}
+
+/* individual book-page */
+
+.book-in-container{
+  display: flex;
+  
+}
+
+.book-image{
+  width: 100%;
+  height: auto;
+}
+
+section.text{
+  padding: 40px ;
+}
+
+main.book-in{
+  margin-bottom: 161px;
+
+}
 
 
+
+
+/* responsive */
+
+
+ @media only screen and (max-width: 840px) {
+   img.book-image {
+    width: 350px;
+  } 
+  .book-in-container{
+    background-color: #5c9b862e;
+  }
+  .book-in-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightcoral;
+  }
+  main{
+   padding: 40px;
+  }
+} 
