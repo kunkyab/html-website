@@ -80,7 +80,7 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   height: auto;
-  margin-bottom: 153px;
+  margin-bottom: 128px;
 }
 .card{
   border-radius: 10px;
@@ -125,8 +125,8 @@ section.text{
 }
 
 .book-image{
-  width: 100%;
-  height: auto;
+  width: 234px;
+    height: 322px;
 }
 
 section.text{
@@ -134,7 +134,7 @@ section.text{
 }
 
 main.book-in{
-  margin-bottom: 161px;
+  margin-bottom: 185px;
 
 }
 
