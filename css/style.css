@@ -41,9 +41,8 @@ body{
 }
 footer{
  
-  position: fixed;
   /* left: 0; */
-  height: 80px;
+  height: 140px;
   bottom: 0;
   width: 80vw;
   background-color: rgb(7, 6, 6);
@@ -66,7 +65,9 @@ footer{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 5px;
+  
+  height: auto;
+  margin-bottom: 153px;
 }
 .card{
   margin:30px;
